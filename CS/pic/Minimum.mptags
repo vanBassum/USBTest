@@ -1,0 +1,206 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ADDR	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	101;"	m	line:101	struct:_BDT
+ADDRESS::4	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	94;"	d	line:94
+ALLOW_SUSPEND::0	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	28;"	d	line:28	file:
+ATTACHED::1	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	91;"	d	line:91
+BC8::0x01	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	87;"	d	line:87
+BC9::0x02	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	86;"	d	line:86
+BDT	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	102;"	t	line:102
+BSTALL::0x04	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	85;"	d	line:85
+BusReset	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	1080;"	f	line:1080
+BusReset	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	153;"	p	line:153	signature:()
+CALLBACKS_H	D:\Projects\PIC\Microchip\18f2550\Minimum\callbacks.h	22;"	d	line:22
+CFSZ::0x29	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	89;"	d	line:89	file:
+CLEAR_FEATURE::1	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	39;"	d	line:39
+CLK_48MHZ::1	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	7;"	d	line:7	file:
+CONFIGURATION_DESCRIPTOR::0x02	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	52;"	d	line:52
+CONFIGURED::5	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	95;"	d	line:95
+CONFIG_HEADER_SIZE::0x09	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	37;"	d	line:37	file:
+Cnt	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	100;"	m	line:100	struct:_BDT
+ConfigStruct	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	44;"	t	line:44	file:
+CurrentButtonStates	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	93;"	l	line:93
+DATA_IN_STAGE::2	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	56;"	d	line:56	file:
+DATA_OUT_STAGE::1	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	55;"	d	line:55	file:
+DEBUG_PRINT::0	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	25;"	d	line:25
+DEFAULT::3	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	93;"	d	line:93
+DETACHED::0	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	90;"	d	line:90
+DEVICE_DESCRIPTOR::0x01	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	51;"	d	line:51
+DEVICE_DESCRIPTOR_SIZE::0x12	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	36;"	d	line:36	file:
+DEVICE_REMOTE_WAKEUP::0x01	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	75;"	d	line:75
+DTS::0x40	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	81;"	d	line:81
+DTSEN::0x08	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	84;"	d	line:84
+E0SZ::8	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	134;"	d	line:134
+ENDPOINT_DESCRIPTOR::0x05	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	55;"	d	line:55
+ENDPOINT_HALT::0x00	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	76;"	d	line:76
+EnableUSBModule	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	984;"	f	line:984	signature:(void)
+EnableUSBModule	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	151;"	p	line:151	signature:(void)
+GET_CONFIGURATION::8	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	44;"	d	line:44
+GET_DESCRIPTOR::6	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	42;"	d	line:42
+GET_IDLE::0x02	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	68;"	d	line:68
+GET_INTERFACE::10	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	46;"	d	line:46
+GET_PROTOCOL::0x03	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	69;"	d	line:69
+GET_REPORT::0x01	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	67;"	d	line:67
+GET_STATUS::0	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	38;"	d	line:38
+GetDescriptor	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	471;"	f	line:471	file:	signature:(void)
+GetFeatureReport	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	142;"	f	line:142	signature:(byte reportID)
+GetFeatureReport	D:\Projects\PIC\Microchip\18f2550\Minimum\callbacks.h	29;"	p	line:29	signature:(byte reportID)
+GetInputReport	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	199;"	f	line:199	signature:(byte reportID)
+GetInputReport	D:\Projects\PIC\Microchip\18f2550\Minimum\callbacks.h	26;"	p	line:26	signature:(byte reportID)
+GetStatus	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	527;"	f	line:527	file:	signature:(void)
+HFRB::HID_FEATURE_REPORT_BYTES	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	131;"	d	line:131	file:
+HIBYTE::(x)(*(((char*)&x)+1))	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	44;"	d	line:44	file:
+HIDDescriptor	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	43;"	m	line:43	struct:_configStruct	file:
+HIDFeatureBuffer	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	14;"	v	line:14
+HIDGetReport	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	309;"	f	line:309	signature:(void)
+HIDInitEndpoint	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	288;"	f	line:288	signature:(void)
+HIDPostProcess	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	61;"	v	line:61
+HIDReport	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	134;"	v	line:134
+HIDRxBuffer	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	197;"	v	line:197
+HIDRxReport	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	244;"	f	line:244	signature:(byte *buffer, byte len)
+HIDRxReport	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	161;"	p	line:161	signature:(byte *buffer, byte len)
+HIDSetReport	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	328;"	f	line:328	signature:(void)
+HIDTxBuffer	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	198;"	v	line:198
+HIDTxReport	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	207;"	f	line:207	signature:(byte *buffer, byte len)
+HIDTxReport	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	160;"	p	line:160	signature:(byte *buffer, byte len)
+HID_DESCRIPTOR::0x21	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	62;"	d	line:62
+HID_DESCRIPTOR_SIZE::0x20	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	38;"	d	line:38	file:
+HID_FEATURE_REPORT_BYTES::64	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	139;"	d	line:139
+HID_HEADER_SIZE::0x09	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	39;"	d	line:39	file:
+HID_INPUT_REPORT_BYTES::64	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	137;"	d	line:137
+HID_OUTPUT_REPORT_BYTES::64	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	138;"	d	line:138
+HID_REPORT_SIZE::47	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	133;"	d	line:133	file:
+HIRB::HID_INPUT_REPORT_BYTES	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	129;"	d	line:129	file:
+HISZ::HID_INPUT_REPORT_BYTES	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	90;"	d	line:90	file:
+HORB::HID_OUTPUT_REPORT_BYTES	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	130;"	d	line:130	file:
+HOSZ::HID_OUTPUT_REPORT_BYTES	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	91;"	d	line:91	file:
+INCDIS::0x10	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	83;"	d	line:83
+INTERFACE_DESCRIPTOR::0x04	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	54;"	d	line:54
+InDataStage	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	737;"	f	line:737	signature:(void)
+KEN::0x20	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	82;"	d	line:82
+LOBYTE::(x)(*((char*)&x))	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	43;"	d	line:43	file:
+LSB::(x)(x&0xFF)	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	32;"	d	line:32
+MSB::(x)((x&0xFF00)>>8)	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	33;"	d	line:33
+OutDataStage	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	772;"	f	line:772	signature:(void)
+PHYSICAL_DESCRIPTOR::0x23	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	64;"	d	line:64
+PID	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	894;"	l	line:894
+POWERED::2	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	92;"	d	line:92
+PTR16::(x)((unsignedint)(((unsignedlo	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	27;"	d	line:27
+PreviousButtonStates	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	16;"	v	line:16
+ProcessControlTransfer	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	886;"	f	line:886	signature:(void)
+ProcessHIDRequest	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	347;"	f	line:347	signature:(void)
+ProcessIO	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	90;"	f	line:90	signature:(void)
+ProcessStandardRequest	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	626;"	f	line:626	signature:(void)
+ProcessUSBTransactions	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	1111;"	f	line:1111	signature:(void)
+ProcessUSBTransactions	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	152;"	p	line:152	signature:(void)
+REPORT_DESCRIPTOR::0x22	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	63;"	d	line:63
+ROMoutPtr	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	65;"	v	line:65
+SETUP_STAGE::0	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	54;"	d	line:54	file:
+SET_ADDRESS::5	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	41;"	d	line:41
+SET_CONFIGURATION::9	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	45;"	d	line:45
+SET_DESCRIPTOR::7	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	43;"	d	line:43
+SET_FEATURE::3	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	40;"	d	line:40
+SET_IDLE::0x0A	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	71;"	d	line:71
+SET_INTERFACE::11	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	47;"	d	line:47
+SET_PROTOCOL::0x0B	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	72;"	d	line:72
+SET_REPORT::0x09	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	70;"	d	line:70
+STATUS_STAGE::3	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	57;"	d	line:57	file:
+STRING_DESCRIPTOR::0x03	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	53;"	d	line:53
+SYNCH_FRAME::12	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	48;"	d	line:48
+SendUSBMessage	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	47;"	f	line:47	file:	signature:(void)
+SetFeature	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	577;"	f	line:577	file:	signature:(void)
+SetFeatureReport	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	124;"	f	line:124	signature:(byte reportID)
+SetFeatureReport	D:\Projects\PIC\Microchip\18f2550\Minimum\callbacks.h	31;"	p	line:31	signature:(byte reportID)
+SetOutputReport	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	183;"	f	line:183	signature:(byte reportID)
+SetOutputReport	D:\Projects\PIC\Microchip\18f2550\Minimum\callbacks.h	28;"	p	line:28	signature:(byte reportID)
+SetupFeatureReport	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	111;"	f	line:111	signature:(byte reportID)
+SetupFeatureReport	D:\Projects\PIC\Microchip\18f2550\Minimum\callbacks.h	30;"	p	line:30	signature:(byte reportID)
+SetupOutputReport	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	170;"	f	line:170	signature:(byte reportID)
+SetupOutputReport	D:\Projects\PIC\Microchip\18f2550\Minimum\callbacks.h	27;"	p	line:27	signature:(byte reportID)
+SetupPacket	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	193;"	v	line:193
+SetupStage	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	805;"	f	line:805	signature:(void)
+Stall	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	1035;"	f	line:1035	signature:(void)
+StartOfFrame	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	1028;"	f	line:1028	signature:(void)
+Stat	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	99;"	m	line:99	struct:_BDT
+Suspend	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	1050;"	f	line:1050	signature:(void)
+UOWN::0x80	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	80;"	d	line:80
+USBEcho	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	75;"	f	line:75	file:	signature:(void)
+USB_H	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	23;"	d	line:23
+USE_MEMCPY::0	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	31;"	d	line:31	file:
+UnSuspend	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	1015;"	f	line:1015	signature:(void)
+UserInit	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	34;"	f	line:34	signature:(void)
+WaitForSetupStage	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	873;"	f	line:873	signature:(void)
+_BDT	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	97;"	s	line:97
+_configStruct	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	40;"	s	line:40	file:
+_setupPacketStruct	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	119;"	s	line:119
+bRequest	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	349;"	l	line:349
+bRequest	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	122;"	m	line:122	struct:_setupPacketStruct
+bmRequestType	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	121;"	m	line:121	struct:_setupPacketStruct
+bufferSize	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	742;"	l	line:742
+bufferSize	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	774;"	l	line:774
+byte	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	29;"	t	line:29
+configDescriptor	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	93;"	v	line:93
+configHeader	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	42;"	m	line:42	struct:_configStruct	file:
+controlTransferBuffer	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	194;"	v	line:194
+ctrlTransferStage	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	59;"	v	line:59
+currentConfiguration	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	51;"	v	line:51
+descriptorIndex	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	479;"	l	line:479
+descriptorType	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	360;"	l	line:360
+descriptorType	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	478;"	l	line:478
+deviceAddress	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	49;"	v	line:49
+deviceDescriptor	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	75;"	v	line:75
+deviceState	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	47;"	v	line:47
+endpointDir	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	557;"	l	line:557
+endpointDir	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	602;"	l	line:602
+endpointNum	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	556;"	l	line:556
+endpointNum	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	601;"	l	line:601
+ep0Bi	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	185;"	v	line:185
+ep0Bo	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	184;"	v	line:184
+ep1Bi	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	187;"	v	line:187
+ep1Bo	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	186;"	v	line:186
+extra	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	128;"	m	line:128	struct:_setupPacketStruct
+feature	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	580;"	l	line:580
+hidIdleRate	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	71;"	v	line:71
+hidProtocol	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	72;"	v	line:72
+hidRxLen	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	73;"	v	line:73
+i	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	206;"	l	line:206
+i	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	49;"	l	line:49
+i	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	210;"	l	line:210
+i	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	740;"	l	line:740
+i	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	774;"	l	line:774
+inPtr	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	66;"	v	line:66
+led_cnt	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	225;"	l	line:225
+low_interrupt	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	19;"	f	line:19	signature:(void)
+main	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	223;"	f	line:223	signature:(void)
+outPtr	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	64;"	v	line:64
+recipient	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	530;"	l	line:530
+recipient	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	579;"	l	line:579
+remoteWakeup	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	48;"	v	line:48
+reportID	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	311;"	l	line:311
+reportID	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	330;"	l	line:330
+reportID	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	909;"	l	line:909
+request	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	628;"	l	line:628
+requestHandled	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	62;"	v	line:62
+rxBuffer	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	29;"	v	line:29
+rxCnt	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	77;"	l	line:77
+selfPowered	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	50;"	v	line:50
+setupPacketStruct	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	129;"	t	line:129
+stringDescriptor0	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	166;"	v	line:166
+stringDescriptor1	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	171;"	v	line:171
+stringDescriptor2	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	176;"	v	line:176
+timestamp	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	30;"	v	line:30
+transferType	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	68;"	v	line:68
+txBuffer	D:\Projects\PIC\Microchip\18f2550\Minimum\Main.c	28;"	v	line:28
+wCount	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.c	67;"	v	line:67
+wIndex0	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	125;"	m	line:125	struct:_setupPacketStruct
+wIndex1	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	126;"	m	line:126	struct:_setupPacketStruct
+wLength	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	127;"	m	line:127	struct:_setupPacketStruct
+wValue0	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	123;"	m	line:123	struct:_setupPacketStruct
+wValue1	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	124;"	m	line:124	struct:_setupPacketStruct
+word	D:\Projects\PIC\Microchip\18f2550\Minimum\usb.h	30;"	t	line:30
