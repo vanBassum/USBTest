@@ -12,8 +12,9 @@
 #include <stdint.h>
 #include <vector>
 #include <map>
-#include "callback.h"
-#include "Command.h"
+
+#include "Lib/Comminucation/Callback.h"
+#include "Lib/Comminucation/Command.h"
 
 
 
@@ -22,9 +23,8 @@ class CommandHandler
 private:
 	std::map<uint8_t, Callback<bool, std::vector<uint8_t>*>> commandList;
 
-
 public:
-	/*
+
 	template<typename T>
 	bool SetCommand(uint8_t cmd, T *instance, bool (T::*Method)(std::vector<uint8_t>* data))
 	{
@@ -49,28 +49,25 @@ public:
 		commandList[0].bind(func);
 		return true;
 	}
-	*/
+
 
 	CommandHandler()
 	{
 		//SetCommand(0x00, this, &CommandHandler::TestCommand);
 	}
 
-	void ExecCommand(Command *cmd)
+	ResponseType ExecCommand(Command *cmd, std::vector<uint8_t>* data)
 	{
+
 		if(commandList.count(cmd->GetCommand()))
 		{
-			if(commandList[cmd->GetCommand()](&cmd->data))
-				cmd->SetResponse(ResponseType::Ack);
+			if(commandList[cmd->GetCommand()](data))
+				return ResponseType::Ack;
 			else
-				cmd->SetResponse(ResponseType::Nack);
+				return ResponseType::Nack;
 		}
-		else
-		{
-			//Command not found in 'list', return unknown without data and the same seqnr.
-			cmd->data.clear();
-			cmd->SetResponse(ResponseType::Unknown);
-		}
+
+		return ResponseType::Unknown;
 	}
 };
 

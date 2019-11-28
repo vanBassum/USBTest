@@ -73,7 +73,7 @@ public:
 	/// </summary>
 	void Run()
 	{
-		BaseType_t xReturned = xTaskCreate(&taskfun, _name, _stackDepth, this, _priority, &taskHandle);
+		xTaskCreate(&taskfun, _name, _stackDepth, this, _priority, &taskHandle);
 	}
 
 

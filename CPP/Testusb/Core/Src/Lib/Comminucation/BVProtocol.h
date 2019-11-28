@@ -11,9 +11,10 @@
 #include <stdint.h>
 #include <vector>
 #include <map>
-#include "callback.h"
-#include "ByteStuffing.h"
-#include "command.h"
+
+#include "../Comminucation/Bytestuffing.h"
+#include "../Comminucation/Callback.h"
+#include "../Comminucation/Command.h"
 
 
 class BVProtocol

@@ -22,12 +22,11 @@
 #include "main.h"
 #include "cmsis_os.h"
 #include "usb_device.h"
-#include "Data/BVprotocol.h"
-#include "Data/Command.h"
 #include "Lib/usb.h"
 #include "stdint.h"
 #include <map>
-
+#include "Lib/BVUSB.h"
+#include "commandhandler.h"
 
 extern "C"
 {
@@ -40,82 +39,33 @@ static void MX_GPIO_Init(void);
 void StartDefaultTask(void *argument);
 void spiinit();
 
-//CMDHandler *cmdHandler;
-
-typedef struct
-{
-	uint8_t data[64];
-}CMDMessage;
-
 
 
 SPI_HandleTypeDef ST7735_SPI_PORT;
-
-USBTask<CMDMessage> * usb;
-
-BVProtocol prot;
-
-void * operator new( size_t size )
-{
-    return pvPortMalloc(size);
-}
-
-void * operator new[]( size_t size )
-{
-    return pvPortMalloc( size );
-}
-
-void operator delete( void * ptr )
-{
-    vPortFree( ptr );
-}
-
-void operator delete[]( void * ptr )
-{
-    vPortFree( ptr );
-}
+BVUSB *usbProt;
+CommandHandler cmdHandler;
 
 
-void DataRecieved(CMDMessage msg)
-{
-	UBaseType_t size =  uxTaskGetStackHighWaterMark(NULL);
-	std::vector<uint8_t> data;
 
-	for(int i=0; i<64; i++)
-		data.push_back(msg.data[i]);
-
-	prot.RawDataIn(&data);
-}
-
-
-void CommandReceived(Command cmd)
+void CmdRecieved(Command cmd)
 {
 	std::vector<uint8_t> data;
-	prot.SendResponse(ResponseType::Unknown, &data);
+	ResponseType response = cmdHandler.ExecCommand(&cmd, &data);
+	usbProt->SendResponse(response, &data);
 }
 
-void DataSend(std::vector<uint8_t>* data)
+
+bool GetHeap(std::vector<uint8_t>* data)
 {
+	size_t size = xPortGetFreeHeapSize();
 
-	for(uint16_t i=0; i<data->size();)
-	{
-		CMDMessage msg;
-		uint8_t p=0;
+	for(uint8_t i=0; i<sizeof(size_t); i++)
+		data->push_back((size>>(i*8)) & 0xFF);
 
-		for(p=0; p<64; p++)
-		{
-			if(i+p < data->size())
-				msg.data[p] = (*data)[i+p];
-			else
-				msg.data[p] = _NOP;
-		}
-
-		usb->Send(msg);
-
-		i+=p;
-	}
-
+	return true;
 }
+
+
 
 
 int main(void)
@@ -135,11 +85,10 @@ int main(void)
   ST7735_Init();
   ST7735_FillScreen(ST7735_BLACK);
 
-  usb = new USBTask<CMDMessage>();
-  usb->OnDataRecieved.Bind(&DataRecieved);
-  prot.OnCommandRecieved.bind(&CommandReceived);
-  prot.OnRawDataOut.bind(&DataSend);
+  usbProt = new BVUSB();
+  usbProt->OnCommandRecieved.bind(&CmdRecieved);
 
+  cmdHandler.SetCommand(0x00, &GetHeap);
 
   osKernelStart();
 
@@ -264,5 +213,26 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
+
+void * operator new( size_t size )
+{
+    return pvPortMalloc(size);
+}
+
+void * operator new[]( size_t size )
+{
+    return pvPortMalloc( size );
+}
+
+void operator delete( void * ptr )
+{
+    vPortFree( ptr );
+}
+
+void operator delete[]( void * ptr )
+{
+    vPortFree( ptr );
+}
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

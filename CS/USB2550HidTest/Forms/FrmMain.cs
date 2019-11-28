@@ -37,13 +37,19 @@ namespace USB2550HidTest.Forms
         private void Button1Click(object sender, EventArgs e)
         {
             prot.SendRequest(0x00, null, ResponseReceived);
+
         }
 
         private void ResponseReceived(Command cmd)
         {
-            
-        }
+            int size = 0;
 
+            for(int i=0; i<4; i++)
+            {
+                size += cmd.Data[i] << (i * 8);
+            }
+
+        }
 
 
     }

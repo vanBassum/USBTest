@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 
 namespace bproj
@@ -6,7 +7,7 @@ namespace bproj
     public class BVProtocol
     {
         ByteStuffing bs;
-        Dictionary<byte, Action<Command>> pendingRequests = new Dictionary<byte, Action<Command>>();
+        ConcurrentDictionary<byte, Action<Command>> pendingRequests = new ConcurrentDictionary<byte, Action<Command>>();
 
         public BVProtocol()
         {
@@ -23,7 +24,8 @@ namespace bproj
                 //We received a response to an earlier send command.
 
                 pendingRequests[cmd.SeqNo](cmd);
-                pendingRequests.Remove(cmd.SeqNo);
+                Action<Command> value1;
+                pendingRequests.TryRemove(cmd.SeqNo, out value1);
             }
             else
             {
